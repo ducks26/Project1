@@ -1,6 +1,10 @@
 #
 shell
-	90usecs exit
+	100usecs write ssd 21000B
+	120usecs read ssd 48000B
+	220usecs spawn unicorns
+	230usecs wait
+	340usecs exit
 #
 copyfile
 	200usecs read hd 48000B
