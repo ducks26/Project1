@@ -1,4 +1,7 @@
 #
+command
+	90usecs exit
+#
 shell
 	100usecs write ssd 21000B
 	120usecs read ssd 48000B
