@@ -1,0 +1,55 @@
+#
+shell
+	100usecs write ssd 21000B
+	120usecs read ssd 48000B
+	220usecs spawn cal
+	230usecs wait
+	340usecs exit
+#
+copyfile
+	200usecs read hd 48000B
+	300usecs write hd 48000B
+	600usecs read hd 21000B
+	700usecs write hd 21000B
+	1000usecs exit
+#
+unicorns
+	10usecs spawn twat
+	20usecs sleep 500usecs
+	25usecs wait
+	50usecs exit
+#
+twat
+	10usecs spawn cunt
+	15usecs spawn bongbus
+	20usecs sleep 1000usecs
+	25usecs wait
+	30usecs exit
+#
+cunt
+	10usecs sleep 120usecs
+	15usecs spawn kengpt
+	20usecs sleep 310usecs
+	30usecs wait
+	400usecs exit
+#
+bongbus
+	50usecs sleep 40usecs
+	70usecs spawn cunt
+	75usecs exit
+#
+kengpt
+	1500usecs exit
+#
+shortsleep
+	10usecs sleep 10usecs
+	50usecs exit
+#
+longsleep
+	10usecs sleep 5000000usecs
+	50usecs exit
+#
+cal
+	80usecs write terminal 2000B
+	90usecs exit
+#
