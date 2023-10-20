@@ -2,7 +2,7 @@
 shell
 	100usecs write ssd 21000B
 	120usecs read ssd 48000B
-	220usecs spawn cal
+	220usecs spawn unicorns
 	230usecs wait
 	340usecs exit
 #
